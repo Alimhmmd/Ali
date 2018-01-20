@@ -18,5 +18,11 @@ int main(){
 	
 	cout << (Honda.kualitas);
 	NHK.harga(" standar ");
+	
+	MDS.harga(" normal ");
+}
+
+void kendaraan::harga(string price){
+	cout<<" Harga "<<price<<" sesuai kantung anda ";
 }
 
